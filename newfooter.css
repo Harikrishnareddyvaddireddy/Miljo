@@ -1,0 +1,33 @@
+footer {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info h4 {
+  margin-bottom: 10px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info ul li {
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+}

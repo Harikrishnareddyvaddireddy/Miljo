@@ -1,0 +1,124 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #142161;
+    font-family:'Nunito';
+}
+.text_custom {
+    color: #142161;
+}
+
+.about_icon i {
+    font-size: 22px;
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 35px;
+    color: #142161;
+    box-shadow: 0 8px 20px -2px rgba(158, 152, 153, 0.5);
+}
+
+.about_header_main .about_heading {
+    max-width: 450px;
+    font-size: 24px;
+}
+
+.about_icon span {
+    position: relative;
+    top: -10px;
+}
+
+.about_content_box_all {
+    padding: 28px;
+}
+.text-muted > p{
+    font-size: 18px;
+    text-align: justify;
+    font-family:'Nunito';
+}
+.about_header_main > h4{
+    text-align: center;
+    padding: 10px;
+    font-family:'Nunito';
+}
+.About-heading h2{
+    text-align: center;
+    padding: 10px;
+    font-family:'Nunito';
+}
+.text{
+    text-align: justify;
+    font-family:'Nunito';
+}
+@media screen and (max-width: 768px) {
+  #About-main-heading {
+    font-size: 24px; /* Adjust the font size as needed for smaller screens */
+  }
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-col-1{
+  flex-basis:45% ;
+  padding-top: 50px;
+}
+.about-col-1 h2{
+  font-family: 'WorkSans', serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.about-col-1 h3{
+  font-size: 20px;
+  font-family: 'WorkSans', serif;
+  padding-bottom: 10px;
+}
+.about-col-1 p{
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-family:'Nunito'; 
+  text-align: justify;
+}
+.about-col-2{
+  flex-basis: 45%;
+}
+.about-col-2 img{
+  width: 90%;
+  height: 90%;
+  border-radius: 5px;
+}
+ul {
+  list-style-type: disc;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  }
+.about-col-2 img{
+  border-radius: 80px;
+}
+@media only screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-col-1,
+  .about-col-2 {
+    flex-basis: 100%;
+    padding: 10px 30px 10px 30px;
+  }
+}
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  font-size: 24px;
+  color: #25d366; /* WhatsApp green color */
+  text-decoration: none; /* Remove underline */
+}
